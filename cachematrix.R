@@ -21,7 +21,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 	get <- function() x 
 
-    # setMatrix sets the value of a matrix and caches the give argument 
+	# setMatrix sets the value of a matrix and caches the give argument 
 	setmatrix<-function(solve) m <<- solve 
 
 	# gets the cache value (the matrix)
