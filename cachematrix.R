@@ -36,7 +36,7 @@ makeCacheMatrix <- function(x = matrix()) {
 ## Return a matrix that is the inverse of 'x'
 cacheSolve <- function(x, ...) {
 	
-	# gets the cache matrix
+	# gets the cached matrix
     m <- x$getmatrix()
 
     # if a cached value (maxtrix) exist return it 
